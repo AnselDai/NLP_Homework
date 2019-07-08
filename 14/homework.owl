@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#在 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#在">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#有"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#有 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#有">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#占地面积 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#占地面积"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#通讯地址 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#通讯地址"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校区"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校区"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#东校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#东校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#广州校区"/>
+        <占地面积 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.989</占地面积>
+        <通讯地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">广州市番禺区大学城外环东路132号（510006）</通讯地址>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#中山医学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#中山医学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#北校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#公共卫生学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#公共卫生学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#北校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#北校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#北校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#广州校区"/>
+        <占地面积 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.208</占地面积>
+        <通讯地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">广州市越秀区中山二路74号（510080）</通讯地址>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#南校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#南校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#广州校区"/>
+        <占地面积 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.239</占地面积>
+        <通讯地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">广州市海珠区新港西路135号（510275）</通讯地址>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#土木工程学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#土木工程学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#外国语学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#外国语学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#南校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#大气科学学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#大气科学学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#广州校区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#广州校区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校区"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#心理学系 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#心理学系">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#东校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#护理学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#护理学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#北校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#数学学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#数学学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#南校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#数据科学与计算机学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#数据科学与计算机学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#东校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#智能工程学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#智能工程学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#材料学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#材料学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校区"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校区"/>
+        <占地面积 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.143</占地面积>
+        <通讯地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">深圳市光明新区（正在建设中）</通讯地址>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#物理与天文学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#物理与天文学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#物理学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#物理学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#南校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校区 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校区">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校区"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校园 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校园">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#校园"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#珠海校区"/>
+        <占地面积 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.571</占地面积>
+        <通讯地址 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">珠海市香洲区唐家湾（519082）</通讯地址>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#管理学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#管理学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#东校园"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#航天航空学院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#航天航空学院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#学院"/>
+        <在 rdf:resource="http://www.semanticweb.org/ansel/ontologies/2019/5/untitled-ontology-9#深圳校园"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
