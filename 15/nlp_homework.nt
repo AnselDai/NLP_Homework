@@ -1,0 +1,41 @@
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/1> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_addr> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/3> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/1> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_name> "XiaoMing" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/1> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/1> <http://www.w3.org/2000/01/rdf-schema#label> "personinfo #1" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/2> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_addr> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/1> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/2> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_name> "XiaoHong" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/2> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/2> <http://www.w3.org/2000/01/rdf-schema#label> "personinfo #2" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/3> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_addr> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/2> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/3> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_name> "XiaoGang" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/3> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/3> <http://www.w3.org/2000/01/rdf-schema#label> "personinfo #3" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#personinfo/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/1> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_city> "Guangzhou" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/1> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/1> <http://www.w3.org/2000/01/rdf-schema#label> "address #1" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/2> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_city> "Beijing" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/2> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/2> <http://www.w3.org/2000/01/rdf-schema#label> "address #2" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/3> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_city> "Shanghai" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/3> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/3> <http://www.w3.org/2000/01/rdf-schema#label> "address #3" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/nlp_homework.nt#address/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_id> <http://www.w3.org/2000/01/rdf-schema#label> "address id" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_city> <http://www.w3.org/2000/01/rdf-schema#label> "address city" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/address_city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_id> <http://www.w3.org/2000/01/rdf-schema#label> "personinfo id" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_addr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_name> <http://www.w3.org/2000/01/rdf-schema#label> "personinfo name" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo> <http://www.w3.org/2000/01/rdf-schema#label> "personinfo" .
+<file:///C:/Users/ansel/Downloads/d2rq-0.8.1/vocab/personinfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
